@@ -1,0 +1,1 @@
+document.getElementById("parseButton").addEventListener("click",(()=>{const e=document.getElementById("logInput").value;var t;t=e.split("\n").map((e=>e.trim())).filter((e=>e)),document.getElementById("output").innerHTML="<pre>"+JSON.stringify(t,null,2)+"</pre>"}));
